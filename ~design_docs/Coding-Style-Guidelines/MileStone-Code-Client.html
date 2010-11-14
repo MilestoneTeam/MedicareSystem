@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+	<style type="text/css">
+		body {text-align:center;color:#666;font: 16px/1 Tahoma, Helvetica, Arial, ”\5b8b\4f53″, sans-serif;}
+		h1,h2,h3 {color:#000;}
+		#wrapper {margin:5px auto;width:920px;text-align:left;}
+		a {text-decoration:none;}
+		a:hover {text-decoration:underline;color:red;}
+		.external {text-decoration:underline;color:blue;}
+		.external:hover {text-decoration:none;}
+		p {line-height:25px;}
+		li{margin:10px 0;}
+		table {margin-top:5px;border:1px solid #000;width:90%;}
+		td {border:1px solid #000;}
+		code {line-height:25px;}
+		code.note {color:green;}
+		code.src {color:#000;}
+		.keywords {color:#800080;font-weight:bold;}
+		.keywords1 {color:blue;font-weight:bold;}
+		.description {color:#000;font-weight:bold;}
+		
+		#right {margin:5px auto;text-align:center;font-family:Arial;}
+		#right p {line-height:10px;font-size:small;}
+		#right a,#right a:hover {text-decoration:underline;color:blue;}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<h1>MileStone前端编码规范</h1>
+		<hr />
+		<p><a href="MileStone-Code-Index.html">返回</a></p>
+		
+		<h2>目录</h2>
+		<ul>
+			<li><a href="#1">1 序言</a></li>
+			<li><a href="#2">2 HTML编码规范</a></li>
+			<li><a href="#3">3 CSS编码规范</a></li>
+			<li><a href="#4">4 Javascript编码规范</a></li>
+		</ul>
+		<hr />
+		
+		<h2><a name="1"></a>1 序言</h2>
+		<p>这里是MileStone项目组的前端编码规范文档。包括HTML、CSS、Javascript三部分。</p>
+		<p>要严格按照规范和标准开发，你可以查看<a href="http://www.w3.org/" class="external">W3C网站</a>了解详细信息。</p>
+		<p>本规范基于个人编码实践和网上资料总结，难免有错。若你有更好建议，可以通过<a href="mailto:kongxp920@gmail.com">kongxp920@gmail.com</a>同作者取得联系。</p>
+		
+		<h2><a name="2"></a>2 HTML编码规范</h2>
+		<ol>
+		<li>DOCTYPE统一使用XHTML 1.0 Strict。（DOCTYPE详细信息可以查看<a href="http://www.w3school.com.cn/tags/tag_doctype.asp" class="externale">DOCTYPE标签</a>）。</li>
+		<li>必须指定&lt;html&gt;标签的xmlns属性为：<span class="description">http://www.w3.org/1999/xhtml</span>。</li>
+		<li>标签名、属性名全部小写。</li>
+		<li>属性必须加引号，所有属性必须有值（如：selected="selected"、checked="checked"等）。</li>
+		<li>单标签必须闭合（如：&lt;hr /&gt;、&lt;br /&gt;、&lt;input /&gt;、&lt;img /&gt等）。</li>
+		<li>&amp;符号必须编码（即写成&amp;amp）。</li>
+		<li>标签尽量语义化。</li>
+		<li><p>为相应模块、布局层添加注释。</p>
+		<p>例如：<br />
+			<code class="src">
+			&lt;!--头部开始--&gt;<br />
+			&lt;div id="header"&gt;<br />
+			&lt;/div&gt;<br />
+			&lt;!--头部结束--&gt;<br />
+			</code>
+		</p>
+		</li>
+		</ol>
+		
+		<h2><a name="3"></a>3 CSS编码规范</h2>
+		<p>以CSS2为准进行开发，先保证基本样式，然后可以加入CSS3的特性。（CSS2规范详细信息可以查看<a href="http://www.w3.org/TR/CSS2/" class="external">W3C CSS2 Specification</a>）。</p>
+		<ol>
+		<li>CSS 全局Reset 使用YUI的CSS Reset进行reset。</li>
+		<li>当有多个文件需要link时，将多个文件当做一个文件base.css，其他需要文件在该文件里使用@import url("url")进来。</li>
+		<li>在common.css文件里定义常用样式，每个页面均link该样式表。</li>
+		<li>优先使用class，而不是id，id应该暴露给javascript或是定义布局层框架。</li>
+		<li>所有属性写在一行。如：#footer {clear:both;height:204px;}</li>
+		<li>使用属性缩写。（详细的缩写属性查看这里<a href="http://www.dustindiaz.com/css-shorthand/" class="external">CSS属性缩写</a>）。</li>
+		<li>详细写好注释，尤其是为兼容浏览器时使用的Hack。以下是注释实例：
+		<ul>
+		<li><pre>文件头注释：<br /><code class="note">
+		/*-----------------------------------
+		文件名：base.css
+		  作者：XXX 
+	     Email：XXX
+		   URL：http://milestone.com/css/base.css
+		  版权：... ...
+		  描述：... ...
+		-----------------------------------*/</code></pre></li>
+		<li><pre>文件分组注释：<br /><code class="note">
+		/*-----------------------------------
+		头部样式 Header Style.
+		概览：... ...
+		-----------------------------------*/</code></pre>
+		<pre><code class="note">
+		/*-----------------------------------
+		导航样式 Navigation Style.
+		概览：... ...
+		-----------------------------------*/</code></pre></li>
+		<li><pre>文件内注释：<br /><code class="src">
+		#<span class="keywords1">box</span> { <span class="keywords1">height</span>:1%; <code class="note">//fix IE bug</code> }</code></pre></li>
+		</ul>
+		</li>
+		<li>书写样式顺序：首先根据分区排列规则，然后根据他们出现的顺序排列分区，最后将分区里的规则按从一般带特殊的顺序排列。</li>
+		<li>不要写特殊性过高的规则，尽量使用common.css里定义的类来组合规则，或是根据Html结构使用相应选择器定义规则。</li>
+		</ol>
+		
+		<h2><a name="4"></a>4 Javascript编码规范</h2>
+		<p>对Javascript部分的编码应该要保证代码的可读性，避免全局污染。详细的规范可以参考<a href="http://www.ibm.com/developerworks/cn/web/1008_wangdd_jscodingrule/?ca=drs-tp4608" class="external">浅谈Javascript编码规范</a></p>
+		<ol>
+		<li>变量声明必须使用<span class="keywords">var</span>关键字；变量命名，应该具有良好可读性，加上相应类型前缀。参考前缀：
+		<table>
+			<tr><th>变量类型</th><th>变量名前缀</th><th>补充</th></tr>
+			<tr><td>字符串类型</td><td>s</td><td>统一使用''括住字符串</td></tr>
+			<tr><td>数字类型</td><td>n</td><td></td></tr>
+			<tr><td>布尔类型</td><td>b</td><td></td></tr>
+			<tr><td>数组类型</td><td>a</td><td>统一使用数组字面量[]</td></tr>
+			<tr><td>对象类型</td><td>o</td><td>统一使用对象字面量{}</td></tr>
+			<tr><td>DOM节点类型</td><td>dom</td><td></td></tr>
+			<tr><td>定时器类型</td><td>t</td><td>setTimeout，setInterval</td></tr>
+			<tr><td>正则表达式类型</td><td>reg</td><td></td></tr>
+			<tr><td>JQuery类型</td><td>$</td><td>和JQuery库工作时必须</td></tr>
+		</table></li>
+		<li>语句以分号结束，{}配对。</li>
+		<li>将代码包在立即执行的匿名函数内，并创建命名空间，防止全局变量污染及影响库代码。如下：
+		<pre><code class="src">
+		(<span class="keywords1">function</span>(){
+			if (!window.XXXNamespace) {
+				window.XXXNamespace = { };
+			}
+			XXXNamespace.method = <span class="keywords1">function</span>() { };
+			XXXNamespace.attribute = { };
+		})();
+		</code></pre>
+		</li>
+		<li>注释规范，在文件头部注释，使用/**/；在文件代码中注释使用//避免影响正则表达式中符号：
+		<pre>注释实例：<code class="note">
+		/*-----------------------------------
+		文件名：tabController.js
+		  作者：XXX 
+	     Email：XXX
+		   URL：http://milestone.com/js/tabController.js
+		  版权：... ...
+		  描述：... ...
+		-----------------------------------*/</code></pre></li>
+		<li>本项目底层统一采用JQuery，并在此之上封装应用。（<a href="http://api.jquery.com/" class="external">JQuery API 文档</a>）</li>
+		</ol>
+		<hr />
+		<div id="right">
+			<p>&copy; 2010 MileStone Team.All rights reserved.</p>
+			<p>This page is maintained by <a href="mailto:kongxp920@gmail.com">kongxp920@gmail.com</a></p>
+		</div>
+	</div>
+</body>
+</html>
