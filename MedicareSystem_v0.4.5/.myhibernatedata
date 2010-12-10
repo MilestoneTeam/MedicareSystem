@@ -1,0 +1,23 @@
+#
+#Thu Dec 09 21:11:55 CST 2010
+genBasicCompId=false
+sessionFactoryName=hibernate.dao.HibernateSessionFactory
+profile=
+daoSFId=
+version=3.2
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=assigned
+libInstallFolder=WebRoot/WEB-INF/lib
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=/MedicareSystem/hibernate.reveng.xml
+configFile=/MedicareSystem/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true
+baseDaoClass=hibernate.dao.BaseHibernateDAO
