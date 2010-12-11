@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+.outer {margin:100px auto 0px auto;width:990px;border:10px solid #ddd;background:#efefef;}
+.outer a {color:#333;} .outer a:hover {color:blue;}
+
+.header, .wraper, .footer {margin:5px 0 10px 0;}
+.wraper h2 {text-align:center;}
+
+
+.wraper form {border-top:2px solid #333;}
+.wwFormTable{margin:5px auto;padding:5px;border:10px solid #999;}
+.wwFormTable .tdLabel {text-align:right;font-weight:bold;color:#333;}
+.wwFormTable .txt {width:200px;height:25px;ling-height:25px;}
+.wwFormTable .button {width:100px;height:30px;padding:2px;cursor:pointer;}
