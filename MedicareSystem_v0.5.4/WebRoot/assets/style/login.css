@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+.form, .wwFormTable {
+	background:url(../images/bg-login-form.gif) repeat-x;
+	border:10px solid #ddd;
+	margin:5px auto;
+	padding:15px;
+	width:500px;
+}
+
+.form .buttons {
+	text-align:center;
+	margin:0 auto;
+}
+.form dl, .wwFormTable tr {
+	overflow:hidden;
+	zoom:1;
+	font-size:large;
+	font-family:"Microsoft YaHei";
+	font-weight:bold;
+	color:#fff;
+}
+.form dt, .wwFormTable .tdLabel {
+	float:left;
+	display:inline;
+	margin:5px 0 5px 5px;
+	text-align:right;
+	width:150px;
+}
+.form dd{
+	float:left;
+	display:inline;
+	margin-left:5px;
+}
+.form dd input, .wwFormTable input {
+	width:290px;
+	height:20px;
+	padding:5px;
+	border:1px solid #eee;
+}
+.wwFormTable div {display:inline;margin-left:200px;}
+.form .buttons input, .wwFormTable div input {
+	font-size:large;
+	width:90px;
+	height:40px;
+	margin-right:9px;
+	cursor:pointer;
+}
+#register {position:absolute;top:285px;*top:250px;left:900px;*left:890px;}

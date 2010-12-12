@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+body{ margin:0;padding:0;background:url(../images/bg-login.gif) repeat-x;text-align:center; }
+div {margin:0;padding:0;}
+.hand, label { cursor:pointer; }
+a {text-align:none;color:#333;} a:hover {text-align:underline;color:#fff;}
+.required {color:red;}
+
+
+.header {margin:0px auto 100px auto;}
+
+.wraper {width:980px;text-align:left;margin:0px auto;}
+
+.footer {margin-top:50px;}
+.footer p {fnt-family:Arial;font-size:20px;}
