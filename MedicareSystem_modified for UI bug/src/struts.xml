@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!--
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="false" />
+	  
+    <include file="example.xml"/>
+	-->
+    <package name="loginTest" extends="struts-default">
+		    
+    	<action name="doctorLogin" class="struts2.action.login.DoctorLoginAction">
+    		<result name="success">/WEB-INF/DoctorPage/index.jsp</result>
+    		<result name="login">/doctorLogin.jsp</result>
+    	</action>
+    	 
+    	<action name="patientLogin" class="struts2.action.login.PatientLoginAction">
+    		<result name="success">/WEB-INF/PatientPage/index.jsp</result>
+    		<result name="login">/patientLogin.jsp</result>
+    	</action>
+    	 
+    	<action name="doctorRegister" class="struts2.action.register.DoctorRegisterAction">
+    		<result name="success">/WEB-INF/DoctorPage/index.jsp</result>
+    		<result name="error">/doctorRegister.jsp</result>
+    	</action>
+    	
+    	<action name="patientRegister" class="struts2.action.register.PatientRegisterAction">
+    		<result name="success">/WEB-INF/PatientPage/index.jsp</result>
+    		<result name="error">/patientRegister.jsp</result>
+    	</action>
+    		
+    </package>
+    
+</struts>

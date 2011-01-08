@@ -1,0 +1,461 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=${charset}"/>
+
+        <link rel="SHORTCUT ICON" href="img/clover.ico" />
+
+    <style type="text/css" media="screen">
+        @import url('style.css');
+        @import url('roundedcorners.css');
+        @import url('tree.css');
+            </style>
+    
+    <title>Clover</title>
+</head><body onload="setBrowserTitle('${headerTitle}: Dashboard')" style="min-width:200px">
+
+        
+<table cellspacing="0" cellpadding="0" class="barGraph">
+
+<tr valign="top">
+
+    <td class="hbreak" colspan="1">
+                <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                
+            <label class="titleText link" onkeyup="return help_dash_coverage;" onclick="self.location='cloverview:coverage'">Coverage</label><span> 21 classes, 202 / 665 elements</span>
+            <table><tr><td>30.4%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.3037594</span>
+<div>
+    <div style="width: 200px; font-size:0px;"></div>
+    <div title="69.6% Not Covered"  style="min-width: 200px;"  class="barNegative ">
+       <div title="30.4% Covered" class="barPositive " style="width: 30.4%"></div>
+    </div>
+</div></td></tr></table>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+    
+                <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                                        <label class="titleText link" onkeyup="return help_dash_test_results;" onclick="self.location='cloverview:testresults'">Test Results</label>
+                <span> <span class="red">50 / 72</span> tests 6.63 secs</span>
+            <table>
+                                <tr>
+                    <td>69.4%</td>
+                    <td style="width:200px">
+                                                
+
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+
+    <div title="0% Errors" style="min-width: 40px;" class="testBarError">
+        <div title="30.6% of Tests Failed" class="testBarFail" style="width: 100%">
+            <div title="69.4% of Tests Passed" class="testBarPass" style="width: 69.4%"></div>
+        </div>
+    </div>
+</div>                    </td>
+                </tr>
+                            </table>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+    
+        
+        
+                <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+            <label class="titleText link" onkeyup="return help_dash_packages;" onclick="self.location='cloverview:coverage'">Most Complex Packages</label>
+        
+        <table>
+                    
+                        <tr><td>1. </td><td>40.8%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.407767</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="59.2% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="40.8% Covered" class="barPositive " style="width: 40.8%"></div>
+    </div>
+</div></td><td><a class="tag" href="javapkg:hibernate.dao">hibernate.dao</a> (75)</td></tr>
+                    
+                        <tr><td>2. </td><td>0%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.0</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="0% Covered" class="barPositive " style="width: 0%"></div>
+    </div>
+</div></td><td><a class="tag" href="javapkg:struts2.action.register">struts2.action.register</a> (44)</td></tr>
+                    
+                        <tr><td>3. </td><td>41.4%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.41414142</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="58.6% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="41.4% Covered" class="barPositive " style="width: 41.4%"></div>
+    </div>
+</div></td><td><a class="tag" href="javapkg:hibernate.vo.userinfo">hibernate.vo.userinfo</a> (42)</td></tr>
+                    
+                        <tr><td>4. </td><td>72.5%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.725</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="27.5% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="72.5% Covered" class="barPositive " style="width: 72.5%"></div>
+    </div>
+</div></td><td><a class="tag" href="javapkg:hibernate.vo.user">hibernate.vo.user</a> (18)</td></tr>
+                    
+                        <tr><td>5. </td><td>0%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.0</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="0% Covered" class="barPositive " style="width: 0%"></div>
+    </div>
+</div></td><td><a class="tag" href="javapkg:struts2.action.login">struts2.action.login</a> (14)</td></tr>
+                </table>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+                    <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+            <label class="titleText link" onkeyup="return help_dash_classes;" onclick="self.location='cloverview:coverage'">Most Complex Classes</label>
+        <table>
+                    
+                        <tr><td>1. </td><td>75.9%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.7592593</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="24.1% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="75.9% Covered" class="barPositive " style="width: 75.9%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="javaclass:/hibernate/vo/userinfo/DoctorInfo.java#10_14"  title="hibernate.vo.userinfo.DoctorInfo">DoctorInfo</a>
+                (23)
+            </td></tr>
+                    
+                        <tr><td>2. </td><td>0%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.0</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="0% Covered" class="barPositive " style="width: 0%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="javaclass:/struts2/action/register/DoctorRegisterAction.java#14_14"  title="struts2.action.register.DoctorRegisterAction">DoctorRegisterAction</a>
+                (22)
+            </td></tr>
+                    
+                        <tr><td>3. </td><td>0%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.0</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="0% Covered" class="barPositive " style="width: 0%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="javaclass:/struts2/action/register/PatientRegisterAction.java#14_14"  title="struts2.action.register.PatientRegisterAction">PatientRegisterAction</a>
+                (22)
+            </td></tr>
+                    
+                        <tr><td>4. </td><td>0%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.0</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="100% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="0% Covered" class="barPositive " style="width: 0%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="javaclass:/hibernate/vo/userinfo/PatientInfo.java#12_14"  title="hibernate.vo.userinfo.PatientInfo">PatientInfo</a>
+                (19)
+            </td></tr>
+                    
+                        <tr><td>5. </td><td>62.7%
+</td>
+<td class="graphBar " align="center">
+<span class="sortValue">0.6268657</span>
+<div>
+    <div style="width: 40px; font-size:0px;"></div>
+    <div title="37.3% Not Covered"  style="min-width: 40px;"  class="barNegative ">
+       <div title="62.7% Covered" class="barPositive " style="width: 62.7%"></div>
+    </div>
+</div></td><td>
+                    <a  class="tag" href="javaclass:/hibernate/dao/DoctorDAO.java#24_14"  title="hibernate.dao.DoctorDAO">DoctorDAO</a>
+                (15)
+            </td></tr>
+                </table>
+
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+    
+                <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                <label class="titleText link" onkeyup="return help_dash_risks;" onclick="self.location='cloverview:toprisks'">Top 19 Project Risks</label>
+            <div>
+            
+                                           <a class="tag" href="javaclass:/hibernate/dao/PatientInfoDAO.java#25_14"
+               style="font-size: 25px;color:#e4051a"
+               title="Average Method Complexity - 2 , Coverage - 0% ">PatientInfoDAO</a>
+                          
+                                           <a class="tag" href="javaclass:/hibernate/daofactory/PatientInfoDAOFactory.java#5_14"
+               style="font-size: 25px;color:#e4051a"
+               title="Average Method Complexity - 2 , Coverage - 0% ">PatientInfoDAOFactory</a>
+                          
+                                           <a class="tag" href="javaclass:/hibernate/daofactory/PatientDAOFactory.java#5_14"
+               style="font-size: 25px;color:#e4051a"
+               title="Average Method Complexity - 2 , Coverage - 0% ">PatientDAOFactory</a>
+                          
+                                           <a class="tag" href="javaclass:/hibernate/daofactory/DoctorInfoDAOFactory.java#5_14"
+               style="font-size: 25px;color:#e4051a"
+               title="Average Method Complexity - 2 , Coverage - 0% ">DoctorInfoDAOFactory</a>
+                          
+                                           <a class="tag" href="javaclass:/struts2/action/register/PatientRegisterAction.java#14_14"
+               style="font-size: 19px;color:#e4051a"
+               title="Average Method Complexity - 1.294 , Coverage - 0% ">PatientRegisterAction</a>
+                          
+                                           <a class="tag" href="javaclass:/struts2/action/register/DoctorRegisterAction.java#14_14"
+               style="font-size: 19px;color:#e4051a"
+               title="Average Method Complexity - 1.294 , Coverage - 0% ">DoctorRegisterAction</a>
+                          
+                                           <a class="tag" href="javaclass:/struts2/action/add/userinfo/PatientAddInfoAction.java#13_14"
+               style="font-size: 19px;color:#e4051a"
+               title="Average Method Complexity - 1.25 , Coverage - 0% ">PatientAddInfoAction</a>
+                          
+                                           <a class="tag" href="javaclass:/hibernate/dao/HibernateSessionFactory.java#12_14"
+               style="font-size: 23px;color:#80057e"
+               title="Average Method Complexity - 1.875 , Coverage - 36.6% ">HibernateSessionFactory</a>
+                          
+                                           <a class="tag" href="javaclass:/hibernate/dao/DoctorInfoDAO.java#24_14"
+               style="font-size: 25px;color:#80057e"
+               title="Average Method Complexity - 2 , Coverage - 43.1% ">DoctorInfoDAO</a>
+                          
+                                           <a class="tag" href="javaclass:/struts2/action/add/userinfo/DoctorAddInfoAction.java#13_14"
+               style="font-size: 19px;color:#e4051a"
+               title="Average Method Complexity - 1.25 , Coverage - 0% ">DoctorAddInfoAction</a>
+                          
+                                           <a class="tag" href="javaclass:/struts2/action/login/DoctorLoginAction.java#14_14"
+               style="font-size: 18px;color:#e4051a"
+               title="Average Method Complexity - 1.167 , Coverage - 0% ">DoctorLoginAction</a>
+                          
+                                           <a class="tag" href="javaclass:/hibernate/dao/PatientDAO.java#26_14"
+               style="font-size: 23px;color:#4d05b1"
+               title="Average Method Complexity - 1.875 , Coverage - 58.2% ">PatientDAO</a>
+                          
+                                           <a class="tag" href="javaclass:/struts2/action/login/PatientLoginAction.java#14_14"
+               style="font-size: 18px;color:#e4051a"
+               title="Average Method Complexity - 1.167 , Coverage - 0% ">PatientLoginAction</a>
+                          
+                                           <a class="tag" href="javaclass:/hibernate/dao/DoctorDAO.java#24_14"
+               style="font-size: 23px;color:#4d05b1"
+               title="Average Method Complexity - 1.875 , Coverage - 62.7% ">DoctorDAO</a>
+                          
+                                           <a class="tag" href="javaclass:/hibernate/vo/userinfo/PatientInfo.java#12_14"
+               style="font-size: 17px;color:#e4051a"
+               title="Average Method Complexity - 1 , Coverage - 0% ">PatientInfo</a>
+                          
+                                           <a class="tag" href="javaclass:/hibernate/dao/BaseHibernateDAO.java#10_23"
+               style="font-size: 17px;color:#660598"
+               title="Average Method Complexity - 1 , Coverage - 50% ">BaseHibernateDAO</a>
+                          
+                                           <a class="tag" href="javaclass:/hibernate/vo/user/Patient.java#13_14"
+               style="font-size: 17px;color:#4d05b1"
+               title="Average Method Complexity - 1 , Coverage - 65% ">Patient</a>
+                          
+                                           <a class="tag" href="javaclass:/hibernate/vo/userinfo/DoctorInfo.java#10_14"
+               style="font-size: 17px;color:#3405ca"
+               title="Average Method Complexity - 1 , Coverage - 75.9% ">DoctorInfo</a>
+                          
+                                           <a class="tag" href="javaclass:/hibernate/vo/user/Doctor.java#13_14"
+               style="font-size: 17px;color:#1b05e3"
+               title="Average Method Complexity - 1 , Coverage - 80% ">Doctor</a>
+                                      </div>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+    
+        
+
+                        <div class="tags roundedLarge" style="padding: 5px;">
+            <b class="ctop $cnrclass"><b class="cb1"></b><b class="cb2"></b><b class="cb3"></b><b class="cb4"></b></b>
+        <div class="roundedContent" style="padding: 5px;">
+                <label class="titleText link" onkeyup="return help_dash_untested_methods;" onclick="self.location='cloverview:quickwins'">Least Tested Methods</label>
+            <table>
+                
+                <tr>
+                    <td align="right">1.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="PatientInfoDAO.save(PatientInfo)&nbsp;:&nbsp;void" href="javamethod:/hibernate/dao/PatientInfoDAO.java#34_2">PatientInfoDAO.save(<wbr>PatientInfo)<wbr>&nbsp;:&nbsp;void</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">2.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="PatientInfoDAO.delete(PatientInfo)&nbsp;:&nbsp;void" href="javamethod:/hibernate/dao/PatientInfoDAO.java#50_2">PatientInfoDAO.delete(<wbr>PatientInfo)<wbr>&nbsp;:&nbsp;void</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">3.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="PatientInfoDAO.update(PatientInfo)&nbsp;:&nbsp;void" href="javamethod:/hibernate/dao/PatientInfoDAO.java#66_2">PatientInfoDAO.update(<wbr>PatientInfo)<wbr>&nbsp;:&nbsp;void</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">4.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="PatientDAO.update(Patient)&nbsp;:&nbsp;void" href="javamethod:/hibernate/dao/PatientDAO.java#63_2">PatientDAO.update(<wbr>Patient)<wbr>&nbsp;:&nbsp;void</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">5.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="DoctorInfoDAO.delete(DoctorInfo)&nbsp;:&nbsp;void" href="javamethod:/hibernate/dao/DoctorInfoDAO.java#52_2">DoctorInfoDAO.delete(<wbr>DoctorInfo)<wbr>&nbsp;:&nbsp;void</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">6.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="DoctorInfoDAO.update(DoctorInfo)&nbsp;:&nbsp;void" href="javamethod:/hibernate/dao/DoctorInfoDAO.java#68_2">DoctorInfoDAO.update(<wbr>DoctorInfo)<wbr>&nbsp;:&nbsp;void</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">7.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="DoctorDAO.update(Doctor)&nbsp;:&nbsp;void" href="javamethod:/hibernate/dao/DoctorDAO.java#61_2">DoctorDAO.update(<wbr>Doctor)<wbr>&nbsp;:&nbsp;void</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">8.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="DoctorInfo.DoctorInfo(String,Doctor,String,Byte,Integer,String,String,String,String,String)" href="javamethod:/hibernate/vo/userinfo/DoctorInfo.java#38_2">DoctorInfo.DoctorInfo(<wbr>String,<wbr>Doctor,<wbr>String,<wbr>Byte,<wbr>Integer,<wbr>String,<wbr>String,<wbr>String,<wbr>String,<wbr>String)<wbr></a> (1)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">9.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="PatientRegisterAction.execute()&nbsp;:&nbsp;String" href="javamethod:/struts2/action/register/PatientRegisterAction.java#24_2">PatientRegisterAction.execute(<wbr>)<wbr>&nbsp;:&nbsp;String</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">10.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="DoctorRegisterAction.execute()&nbsp;:&nbsp;String" href="javamethod:/struts2/action/register/DoctorRegisterAction.java#24_2">DoctorRegisterAction.execute(<wbr>)<wbr>&nbsp;:&nbsp;String</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">11.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="PatientAddInfoAction.execute()&nbsp;:&nbsp;String" href="javamethod:/struts2/action/add/userinfo/PatientAddInfoAction.java#20_2">PatientAddInfoAction.execute(<wbr>)<wbr>&nbsp;:&nbsp;String</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">12.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="PatientInfoDAO.findByProperty(String,Object)&nbsp;:&nbsp;List&lt;PatientInfo&gt;" href="javamethod:/hibernate/dao/PatientInfoDAO.java#106_2">PatientInfoDAO.findByProperty(<wbr>String,<wbr>Object)<wbr>&nbsp;:&nbsp;List&lt;PatientInfo&gt;</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">13.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="PatientInfo.PatientInfo(String,Patient,String,Byte,Integer,Date,Integer,String)" href="javamethod:/hibernate/vo/userinfo/PatientInfo.java#38_2">PatientInfo.PatientInfo(<wbr>String,<wbr>Patient,<wbr>String,<wbr>Byte,<wbr>Integer,<wbr>Date,<wbr>Integer,<wbr>String)<wbr></a> (1)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">14.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="DoctorLoginAction.execute()&nbsp;:&nbsp;String" href="javamethod:/struts2/action/login/DoctorLoginAction.java#22_2">DoctorLoginAction.execute(<wbr>)<wbr>&nbsp;:&nbsp;String</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">15.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="PatientLoginAction.execute()&nbsp;:&nbsp;String" href="javamethod:/struts2/action/login/PatientLoginAction.java#22_2">PatientLoginAction.execute(<wbr>)<wbr>&nbsp;:&nbsp;String</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">16.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="DoctorAddInfoAction.execute()&nbsp;:&nbsp;String" href="javamethod:/struts2/action/add/userinfo/DoctorAddInfoAction.java#19_2">DoctorAddInfoAction.execute(<wbr>)<wbr>&nbsp;:&nbsp;String</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">17.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="PatientInfoDAO.findByExample(PatientInfo)&nbsp;:&nbsp;List&lt;PatientInfo&gt;" href="javamethod:/hibernate/dao/PatientInfoDAO.java#93_2">PatientInfoDAO.findByExample(<wbr>PatientInfo)<wbr>&nbsp;:&nbsp;List&lt;PatientInfo&gt;</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">18.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="PatientInfoDAO.findAll()&nbsp;:&nbsp;List&lt;PatientInfo&gt;" href="javamethod:/hibernate/dao/PatientInfoDAO.java#119_2">PatientInfoDAO.findAll(<wbr>)<wbr>&nbsp;:&nbsp;List&lt;PatientInfo&gt;</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">19.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="PatientDAO.findAll()&nbsp;:&nbsp;List&lt;Patient&gt;" href="javamethod:/hibernate/dao/PatientDAO.java#122_2">PatientDAO.findAll(<wbr>)<wbr>&nbsp;:&nbsp;List&lt;Patient&gt;</a> (2)
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td align="right">20.</td>
+                    <td align="right">0%</td>
+                    <td style="padding-left:25px; text-indent:-25px;">                      <a class="tag" title="DoctorInfoDAO.findAll()&nbsp;:&nbsp;List&lt;DoctorInfo&gt;" href="javamethod:/hibernate/dao/DoctorInfoDAO.java#121_2">DoctorInfoDAO.findAll(<wbr>)<wbr>&nbsp;:&nbsp;List&lt;DoctorInfo&gt;</a> (2)
+                    </td>
+                </tr>
+                            </table>
+                </div>
+            <b class="cbottom"><b class="cb4"></b><b class="cb3"></b><b class="cb2"></b><b class="cb1"></b></b>
+        </div>
+            
+    </td>
+</tr>
+
+<script type="text/javascript" src="jit.js" ></script>
+</body>
+
+</html>
