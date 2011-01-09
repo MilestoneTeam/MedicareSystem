@@ -1,14 +1,14 @@
-文档：
-放在demo1的库中，文件夹为 ~TEST
-Unit Testing是单元测试, 其中包括使用Clover进行了测试代码覆盖率统计
-其余的7选3我们选择了
+docs：
+in demo1 repository ->~TEST
+include:
+Unit Testing
 UI Testing,
 Security Testing,
 Integration Testing.
-Thinking About Testing是我们组在探索软件测试这部分是遇到的一些问题和思考.
+Thinking About Testing(our thought about the testing)
 
 
-测试后修改的代码：
-放在demo1的库中
-MedicareSystem_modified for UI bug文件夹下是针对UI bug修改后的程序。
-MedicareSystem_final 文件夹下是对各种bug进行修改后的最终版。（加入了unit测试和mock, 简单stub的集成测试, 修改了dao包中原有的部分接口）
+source code modified for the bugs：
+in demo1 repository
+->MedicareSystem_modified for UI bug
+->MedicareSystem_final 
