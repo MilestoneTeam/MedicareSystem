@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+body {background:#f8f9fa;text-align:left;}
+h2,h3 {font-size:12px;font-weight:bold;line-height:26px;}
+
+#top {height:75px;background:url(../images/register-bg.gif) left top repeat-x;}
+#top h1 {color:#fff;font-weight:bolod;text-align:center;}
+
+#main {background:#eee;}
+
+.register {background:#f7f8f9;border:16px solid #ddd;padding:10px;margin:5px auto;width:650px;}
+.register h3 {text-indent:30px;padding:2px;margin:10px;background:#e1e5ee;border:1px solid #bfc4ca;font-size:16px;}
+
+.title {height:29;background:url(../images/content-bg.gif) top left repeat-x;}
+.title h2 {padding:5px;text-indent:10px;color:#666;background:url(../images/top_bt.jpg) top left no-repeat;}
+
+.form dl {margin-bottom:5px;} /*覆盖all.css里预定义的表达样式*/
+.form dt {width:150px;text-align:right;margin-right:5px;}
+.form .txt {width:250px;}
+.form .button {display:inline;margin:0 10px 0 150px;}
+.form .msg {margin-top:5px;height:15px;line-height:1;border:1px solid #fff;padding:3px 3px 3px 18px;background:url(../images/form-icons.gif) #fff no-repeat scroll -25px -75px;color:#666;}
+
+.form .tips {background-position:1px 2px;background-color:#e2f5ff;border-color:#00a8ff;}
+.form .fail {background-position:1px -36px;background-color:#fff2e9;border-color:#ff6600;}
+.form .success {background-position:1px -57px;background-color:#e6ffe6;border-color:#00be00;}
+
+#bottom {height:75px;margin:20px 0;background:url(../images/register-bg.gif) left top repeat-x;}
+#bottom p {color:#fff;font-weight:bold;text-align:center;font-size:12px;padding:10px;}

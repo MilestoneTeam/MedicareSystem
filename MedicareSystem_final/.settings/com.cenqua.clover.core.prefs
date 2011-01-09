@@ -1,0 +1,17 @@
+#Sun Jan 09 13:32:41 CST 2011
+block_filters=SourceDirective
+eclipse.preferences.version=1
+flush_interval=1000
+flush_policy=0
+include_filter=src/hibernate/dao/DoctorDAO.java, src/hibernate/dao/DoctorInfoDAO.java, src/hibernate/dao/HibernateSessionFactory.java, src/hibernate/dao/IBaseHibernateDAO.java, src/hibernate/dao/IDoctorInfoDAO.java, src/hibernate/dao/IPatientInfoDAO.java, src/hibernate/dao/IPatientDAO.java, src/hibernate/dao/PatientDAO.java, src/hibernate/dao/PatientInfoDAO.java, src/hibernate/daofactory/DoctorDAOFactory.java, src/hibernate/daofactory/DoctorInfoDAOFactory.java, src/hibernate/daofactory/PatientDAOFactory.java, src/hibernate/daofactory/PatientInfoDAOFactory.java, src/hibernate/junit/daotest/DoctorDAOQueryAndDeleteTest.java, src/hibernate/junit/daotest/DoctorDAOSaveTest.java, src/hibernate/junit/daotest/DoctorInfoDAOQueryAndDeleteTest.java, src/hibernate/junit/daotest/DoctorInfoDAOSaveTest.java, src/hibernate/junit/daotest/PatientDAOTest.java, src/hibernate/junit/daotest/PatientInfoDAOMatchTest.java, src/hibernate/junit/daotest/PatientInfoDAOSaveTest.java, src/hibernate/vo/user/Doctor.java, src/hibernate/vo/user/Patient.java, src/hibernate/vo/userinfo/DoctorInfo.java, src/hibernate/vo/userinfo/PatientInfo.java, src/struts2/action/add/userinfo/DoctorAddInfoAction.java, src/struts2/action/add/userinfo/PatientAddInfoAction.java, src/struts2/action/login/DoctorLoginAction.java, src/struts2/action/login/PatientLoginAction.java, src/struts2/action/register/DoctorRegisterAction.java, src/struts2/action/register/PatientRegisterAction.java, src/struts2/junit/actiontest/mocktest/DoctorAddInfoActionTest.java, src/struts2/junit/actiontest/mocktest/DoctorLoginActionTest.java, src/struts2/junit/actiontest/mocktest/DoctorRegisterActionTest.java, src/struts2/junit/actiontest/mocktest/PatientAddInfoActionTest.java, src/struts2/junit/actiontest/mocktest/PatientLoginActionTest.java, src/struts2/junit/actiontest/mocktest/PatientRegisterActionTest.java, src/struts2/junit/actiontest/stubtest/DoctorDAOStub.java, src/struts2/junit/actiontest/stubtest/DoctorInfoDAOStub.java, src/struts2/junit/actiontest/stubtest/PatientDAOStub.java, src/struts2/junit/actiontest/stubtest/PatientInfoDAOStub.java, src/struts2/junit/mocklearningexample/User.java, src/struts2/junit/mocklearningexample/UserDAO.java, src/struts2/junit/mocklearningexample/UserService.java, src/struts2/junit/mocklearningexample/UserServiceImpl.java, src/struts2/junit/mocklearningexample/UserServiceTest.java
+init_string=.clover/coverage.db
+init_string_default=true
+init_string_project_relative=true
+instrument_selected_source_folders=false
+instrumented_source_folder_patterns[0]=src\n**/*.java, hibernate/dao/DoctorDAO.java, hibernate/dao/DoctorInfoDAO.java, hibernate/dao/HibernateSessionFactory.java, hibernate/dao/IBaseHibernateDAO.java\n\nenabled
+output_root=.clover/bin
+output_root_same_as_project=true
+recreate_output_dirs=true
+should_qualify_java_lang=true
+test_include_filter=**/*Test.java,**/Test*.java
+test_source_folders=0

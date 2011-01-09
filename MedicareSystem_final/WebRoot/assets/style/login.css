@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+body {background:#1d3647;color:#666;line-height:25px;text-align:left;}
+
+#top {height:41px;background:url(../images/login-top-bg.gif) top left repeat-x;}
+#bottom {height:20px;background:url(../images/login-bottom.bg.gif) top left repeat-x;}
+#main {height:532px;width:100%;background:url(../images/login_bg.jpg) top left repeat-x;}
+
+.col {float:left;width:49%;}
+.col-last {width:50%;}
+.col-inner {padding:140px 10px 0 190px;height:383px;background:url(../images/login-content-bg.gif) no-repeat right center;}
+.col-inner-last {padding-left:50px;background:url(../images/welcome.gif) left bottom repeat-x;}
+
+.form-title {font-size:20px;font-weight:bold;}
+.form {margin:20px 0 0 0;}
+.form dt {width:60px;margin-right:20px;}
+.form dd {width:150px;}
+.form .txt {width:150px;}
+
+.reg {display:inline;margin-left:30px;padding-left:18px;background:url(../images/form-register.gif) 0 0 no-repeat;}
+.about {margin-left:40px;}
+.about span {font-size:24px;font-weight:bold;}
+.description {margin:20px 0 10px 40px;padding:0;list-style:none;}
+.logo {height:68px;width:279px;margin-bottom:10px;dispaly:inline;background:url(../images/logo-1.png) no-repeat;text-indent:-1000px;}
+.copy {margin:2px;text-align:center;color:#abcad3;font-size:10px;line-height:20px;}
